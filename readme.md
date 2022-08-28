@@ -28,4 +28,4 @@ module.exports = ({lang}) => (lang === "cn" && {
 执行命令`npm run latexpack`，即可在dist中生成对应的latex文件
 
 
-<center><embed src="./out/cn_main.pdf" width="850" height="600"></center>
+<div style="text-align: center;"><embed src="./out/cn_main.pdf" width="850" height="600"></div>
