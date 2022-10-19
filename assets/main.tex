@@ -409,6 +409,11 @@
             \vfill
             \cvqrcode{0.7}
 
+%            \newpage
+%            \mbox{} % hotfix to place qrcode on the bottom when there are not other elements
+%            \vfill
+%            \cvqrcode{0.7}
+
         \end{leftcolumn}
         \begin{rightcolumn}
 %---------------------------------------------------------------------------------------
@@ -438,14 +443,16 @@
             \cvsection{{{WORK_EXPERIENCE}}}
 
             {{workExperiences}}
+%---------------------------------------------------------------------------------------
+%	OTHER EXPERIENCE
+%----------------------------------------------------------------------------------------
+            \vfill\null
+            \cvsection{{{Campus_Organization_Experience}}}
+
+            {{otherExperiences}}
 % hotfixes to create fake-space to ensure the whole height is used
             \mbox{}
             \vfill
-            \mbox{}
-            \vfill
-            \mbox{}
-            \vfill
-            \mbox{}
         \end{rightcolumn}
     \end{paracol}
 \end{document}
